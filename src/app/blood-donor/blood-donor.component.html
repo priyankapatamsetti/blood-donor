@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Document</title>
+</head>
+<body>
+      <div class="page-wrapper bg-gra-01 p-t-45 p-b-50">
+            <div class="wrapper wrapper--w790">
+                <div class="card card-5">
+                    <div class="card-heading">
+                        <h2 class="title">Enter Personal Details</h2>
+                    </div>
+                    <div class="card-body">
+                        <form method="POST">
+                            <div class="form-row m-b-55">
+                                <div class="name">Name</div>
+                                <div class="value">
+                                    <div class="row row-space">
+                                        <div class="col-2">
+                                            <div class="input-group-desc">
+                                                <input class="input--style-5" type="text" name="first_name" placeholder="First name">                                          
+                                            </div>
+                                        </div>
+                                        <div class="col-2">
+                                            <div class="input-group-desc">
+                                                <input class="input--style-5" type="text" name="last_name" placeholder="Last name">                                                
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <div class="name">Gender</div>
+                                <div class="p-t-10">
+                                    <label class="radio-container m-r-45">Male
+                                        <input type="radio" checked="checked" name="gender">
+                                        <span class="checkmark"></span>
+                                    </label>
+                                    <label class="radio-container">Female
+                                        <input type="radio" name="gender">
+                                        <span class="checkmark"></span>
+                                    </label>
+                                </div>
+                            </div>
+
+                            <div class="form-row">
+                                <div class="name">Blood Group</div>
+                                <div class="value">
+                                    <div class="input-group" class="col-12">
+                                        <div class="rs-select2 js-select-simple select--no-search">
+                                            <select name="subject">
+                                                <option disabled="disabled" selected="selected">Choose Blood Group</option>
+                                                <option>B-Positice</option>
+                                                <option>A-Positive</option>
+                                                <option>O-Positive</option>
+                                            </select>
+                                            <div class="select-dropdown"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div class="form-row">
+                                <div class="name">Email</div>
+                                <div class="value">
+                                    <div class="input-group" class="col-12">
+                                        <input class="input--style-5" type="email" name="email" placeholder="Email Address">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-row m-b-55">
+                                <div class="name">Phone</div>
+                                <div class="value">
+                              
+                                        <div class="col-12">
+                                            <div class="input-group-desc" class="col-12">
+                                                <input class="input--style-5" type="text" name="phone" placeholder="Phone number">
+                                                
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="form-row m-b-55">
+                              <div class="name">Address</div>
+                              <div class="value">
+                                      <div class="col-12">
+                                          <div class="input-group-desc" class="col-12">
+                                              <textarea class="input--style-5" rows="2" cols="54" type="text" name="phone" placeholder="Enter address"></textarea>
+                                              
+                                          </div>
+                                      </div>
+                                  
+                              </div>
+                          </div>
+
+
+                            <div class="form-row">
+                                <label class="label label--block">Have you suffered from Covid-19 in past ?</label>
+                                <div class="p-t-15">
+                                    <label class="radio-container m-r-55">Yes
+                                        <input type="radio" checked="checked" name="exist">
+                                        <span class="checkmark"></span>
+                                    </label>
+                                    <label class="radio-container">No
+                                        <input type="radio" name="exist">
+                                        <span class="checkmark"></span>
+                                    </label>
+                                </div>
+                            </div>
+
+                            <div class="form-row">
+                              <label class="label label--block">Have you ever tested for Covid ?</label>
+                              <div class="p-t-15">
+                                  <label class="radio-container m-r-55">Yes
+                                      <input type="radio" checked="checked" name="exist">
+                                      <span class="checkmark"></span>
+                                  </label>
+                                  <label class="radio-container">No
+                                      <input type="radio" name="exist">
+                                      <span class="checkmark"></span>
+                                  </label>
+                              </div>
+                          </div>
+
+                            <div>
+                                 <button class="btn btn--radius-2 btn--red">Register</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+</body>
+</html>

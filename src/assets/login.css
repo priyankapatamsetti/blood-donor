@@ -1,0 +1,193 @@
+
+  input {
+      outline: none;
+      border: none;
+  }
+  
+  button {
+      outline: none !important;
+      border: none;
+      background: transparent;
+  }
+  
+  button:hover {
+      cursor: pointer;
+  }
+
+  .txt1 {
+    font-family: Montserrat-Regular;
+    font-size: 16px;
+    color: black;
+    line-height: 1.4;
+  }
+  
+  .limiter {
+    width: 100%;
+    margin: 0 auto;
+  }
+  
+  .container-login100 {
+    width: 100%;  
+    min-height: 100vh;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+    position: relative;
+    z-index: 1;
+  }
+  
+  .container-login100::before {
+    content: "";
+    display: block;
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: lightgrey;
+    opacity: 0.9;
+  }
+  
+  .wrap-login100 {
+    width: 390px;
+    background: transparent;
+  }
+  
+  .login100-form {
+    width: 100%;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  .login100-form-title {
+    font-family: Montserrat-ExtraBold;
+    font-size: 24px;
+    color:black;
+    font-weight: bolder;
+    line-height: 1.2;
+    text-align: center;
+  
+    width: 100%;
+    display: block;
+  }
+  
+  /*---------------------------------------------*/
+  .login100-form-avatar {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0 auto;
+  }
+  .login100-form-avatar img {
+    width: 100%;
+  }
+  
+  
+  /*---------------------------------------------*/
+  .wrap-input100 {
+    position: relative;
+    width: 100%;
+    z-index: 1;
+  }
+  
+  .input100 {
+    font-family: Montserrat-Bold;
+    font-size: 15px;
+    line-height: 1.2;
+    color: #333333;
+  
+    display: block;
+    width: 100%;
+    background: #fff;
+    height: 50px;
+    border-radius: 25px;
+    padding: 0 30px 0 53px;
+  }
+
+  .container-login100-form-btn {
+    text-align: center;
+    width: 100%;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .login100-form-btn {
+    font-family: Montserrat-Bold;
+    font-size: 15px;
+    line-height: 1.5;
+    color: darkgrey;
+  
+    width: 100%;
+    height: 50px;
+    border-radius: 25px;
+    background: #333333;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 25px;  
+    position: relative;
+    z-index: 1;
+  }
+  
+  .login100-form-btn::before {
+    content: "";
+    display: block;
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    border-radius: 25px;
+    top: 0;
+    left: 0;
+    background: lightgrey;
+    background: -webkit-linear-gradient(left, lightgrey, lightgrey);
+    background: -o-linear-gradient(left, lightgrey, lightgrey);
+    background: -moz-linear-gradient(left, lightgrey, lightgrey);
+    background: linear-gradient(left, lightgrey,lightgrey);
+    -webkit-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    transition: all 0.4s;
+    opacity: 0;
+  }
+  
+  .login100-form-btn:hover {
+    background: transparent;
+    color:darkgrey;
+  }
+  
+  .login100-form-btn:hover:before {
+    opacity: 1;
+  }
+  
+
+  
+  
+  
+  
